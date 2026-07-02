@@ -15,9 +15,6 @@ export default function Footer() {
                 src="/logo.png" 
                 alt="Logo GMKI" 
                 className="w-12 h-12 object-contain" 
-                onError={(e) => {
-                  e.currentTarget.src = "https://upload.wikimedia.org/wikipedia/id/thumb/7/7b/Logo_GMKI.png/300px-Logo_GMKI.png";
-                }}
               />
               <div className="flex flex-col">
                 <span className="font-outfit font-bold text-xl text-white leading-tight">GMKI</span>

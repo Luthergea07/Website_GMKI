@@ -12,9 +12,6 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
               src="/logo.png" 
               alt="Logo GMKI" 
               className="w-10 h-10 object-contain bg-white rounded-lg p-1" 
-              onError={(e) => {
-                e.currentTarget.src = "https://upload.wikimedia.org/wikipedia/id/thumb/7/7b/Logo_GMKI.png/300px-Logo_GMKI.png";
-              }}
             />
             <div>
               <div className="font-bold text-lg leading-tight">Admin</div>
